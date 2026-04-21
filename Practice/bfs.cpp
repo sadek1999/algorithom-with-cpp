@@ -49,6 +49,8 @@ int main()
         adj_list[a].push_back(b);
         adj_list[b].push_back(a);
     }
+
+    cout << "ok";
     
 
     return 0;
